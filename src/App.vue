@@ -22,6 +22,11 @@ export default {
         reversedMessage() {
             return this.message.split('').reverse().join('')
         }
+    },
+    methods: {
+        increase() {
+            this.count += 1
+        }
     }
 }
 </script>
